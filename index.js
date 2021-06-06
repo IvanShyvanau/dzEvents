@@ -5,7 +5,7 @@ function showBtn() {
   window.addEventListener('scroll', function () {
     let toScroll = window.pageYOffset;
     console.log(toScroll);
-    if (toScroll >= 1278) {
+    if (toScroll >= 1200) {
       btn.style.display = 'inline';
     } else {
       btn.style.display = 'none';

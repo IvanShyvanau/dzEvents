@@ -26,6 +26,7 @@ body{
   color:#fff ; 
   opacity: 0.5;
   border: none;
+  cursor: pointer;
 }
 
 .tab-lis-item_active{
@@ -53,8 +54,21 @@ body{
   margin-block-end: 0;
 }
 
-.content-discription{
-
-
+.button{
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,69,152,1) 0%, rgba(0,130,255,1) 59%);
+  display: none;
 }
 
+.link{
+  text-decoration: none;
+  color: #421C54;
+}
+
+.link:hover{
+  text-decoration: underline;
+  color: #421C54;
+}
