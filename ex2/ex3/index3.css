@@ -26,5 +26,11 @@ body{
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  color: #ef0f0f;
 }
+
+.activ-link{
+  text-decoration: underline;
+}
+
 
